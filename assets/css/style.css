@@ -70,7 +70,7 @@ html {
     font-family: 'Roboto Mono', monospace;
     font-size: 16px;
     font-weight: 600;
-    color: #373735;
+    color: #9aa6ad;
 }
 
 /*@media (max-width: 767px) {
@@ -80,7 +80,7 @@ html {
   }*/
 
 #hero h1 {
-    color: #151a21;
+    color: #f0f6f5;
     font-size: 3rem;
     font-weight: 700;
 }
@@ -93,13 +93,13 @@ html {
   }*/
 
 #hero h2 {
-    color: #151a21;
+    color: #f0f6f5;
     font-weight: 600;
     font-size: 2.5rem;
 }
 
 .gold-background {
-    background: #DDC39988;
+    background: #253029;
     padding: 15px;
 }
 
@@ -109,7 +109,7 @@ html {
 }
 
 #hero .hero-left {
-    color: #151a21;
+    color: #000100;
     font-weight: 300;
 }
 
