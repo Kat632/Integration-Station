@@ -35,7 +35,7 @@ html {
     justify-content: space-between;
     padding: 25px 3px;
     font-size: 16px;
-    color: #151a21;
+    color: #000100;
     white-space: nowrap;
     font-weight: 800;
     transition: 0.3s;
@@ -68,8 +68,8 @@ html {
 #hero p {
     font-family: 'Roboto Mono', monospace;
     font-size: 16px;
-    font-weight: 600;
-    color: #9aa6ad;
+    font-weight: 400;
+    color: #000100;
 }
 
 /*@media (max-width: 767px) {
@@ -98,12 +98,12 @@ html {
 }
 
 .gold-background {
-    background: #253029;
+    background: #25302988;
     padding: 15px;
 }
 
 .duskypink-background {
-    background: #8C6D6A88;
+    background: #9AA6AD88;
     padding: 15px;
 }
 
@@ -122,12 +122,10 @@ section {
 }
 
 .section-title h3 {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-    color: #151a21;
+    color: #000100;
+    border-bottom: 3px solid #9AA6AD;
+    display: inline-block;
+    padding-bottom: 8px;
 }
 
 .section-title h3:after {
@@ -141,12 +139,19 @@ section {
     left: 0;
 }
 
-.section-title p,
+.about .content p,
 .about-us-again p {
-    margin-bottom: 0;
-    color: #777777;
-    font-size: 15px;
-    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000100;
+    font-family: 'Lato', sans-serif;
+}
+
+.about {
+    background-color: #F0F6F5;
+    padding: 50px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .about .content {
@@ -166,19 +171,18 @@ section {
 }
 
 .about .content ul li {
-    padding-left: 28px;
+    font-size: 16px;
+    color: #000100;
     position: relative;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-left: 32px;
 }
 
 .about .content ul i {
+    color: #253029;
+    font-size: 22px;
     position: absolute;
     left: 0;
-    top: 2px;
-    font-size: 20px;
-    color: #8C6D6A;
-    line-height: 1;
+    top: 4px;
 }
 
 .about .content .btn-skills {
@@ -199,9 +203,9 @@ section {
 }
 
 .about .content .btn-skills:hover {
-    background: #8C6D6A;
+    background-color: #253029;
     color: white;
-    text-decoration: none;
+    transform: scale(1.05);
 }
 
 /* -- Skills Modal -- */
@@ -223,6 +227,11 @@ section {
     overflow: hidden;
 }
 
+.modal-content {
+    background-color: #F0F6F5;
+    border-radius: 12px;
+}
+
 .modal-dialog {
     margin-right: 0;
     margin-left: 0;
@@ -231,7 +240,7 @@ section {
 .modal-header {
     height: 30px;
     padding: 20px;
-    background-color: #8c6d6a;
+    background-color: #253029;
     color: white;
     cursor: move;
 }
@@ -243,11 +252,13 @@ section {
 
 .modal-header .close {
     margin-top: -10px;
-    color: #151a21;
+    color: #F0F6F5;
 }
 
 .modal-body {
-    color: #888;
+    color: #000100;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
     padding: 5px 35px 20px;
 }
 
