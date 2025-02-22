@@ -177,7 +177,7 @@ section {
 .about-info {
     background-color: #2D849c;
     padding: 25px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Adds depth */
+    /*box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);*/ /* Adds depth */
 }
 
 .left-box {
@@ -195,7 +195,7 @@ section {
 .about-info h4 {
     font-size: 20px;
     font-family: 'Lato', sans-serif;
-    color: #B9B6B5;
+    color: #F0F6F5;
     padding-bottom: 8px;
 }
 
@@ -512,6 +512,14 @@ to {
         width: 100%;
     }
 } */
+
+/* -- Shadow Effect -- */
+.shadow-effect {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15); /* Soft shadow */
+    border-radius: 10px; /* Optional: Softens corners */
+    padding: 10px; /* Ensures shadow is not cut off */
+    display: inline-block; /* Prevents stretching */
+}
 
 /* -- Footer -- */
 #footer {
