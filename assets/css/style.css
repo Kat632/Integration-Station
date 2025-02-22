@@ -158,6 +158,8 @@ section {
     font-size: 21px;
     line-height: 1.6;
     padding-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 .about {
@@ -234,7 +236,7 @@ section {
 
 /* Enable animation */
 .enable-animation .marquee__content {
-    animation: scroll 10s linear infinite;
+    animation: scroll 30s linear infinite;
   }
 
 /* Pause on hover */
@@ -271,16 +273,16 @@ to {
 .marquee__content li {
     list-style: none;
     padding: 1rem;
-    background: dodgerblue;
+    background: #2D849c;
     color: white;
     border-radius: 0.25rem;
     text-align: center;
 }
-
+/*
 .marquee {
 border: 2px dashed lightgray;
 }
-
+*/
 .about-us-again {
     padding-top: 30px;
     padding-bottom: 15px;
