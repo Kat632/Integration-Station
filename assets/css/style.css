@@ -207,7 +207,7 @@ section {
     overflow: hidden;
     white-space: nowrap;
     position: relative;
-    background: #f9f9f9;
+    background: #F0F6F5;
     padding: 1rem 0;
 }
 
@@ -215,7 +215,7 @@ section {
     display: flex;
     gap: var(--gap);
     min-width: 200%;
-    animation: scroll 10s linear infinite;
+    animation: scroll 30s linear infinite;
 }
   
 @keyframes scroll {
@@ -278,11 +278,7 @@ to {
     border-radius: 0.25rem;
     text-align: center;
 }
-/*
-.marquee {
-border: 2px dashed lightgray;
-}
-*/
+
 .about-us-again {
     padding-top: 30px;
     padding-bottom: 15px;
