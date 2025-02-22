@@ -124,7 +124,7 @@ section {
 
 .section-title h3 {
     color: #000100;
-    border-bottom: 3px solid #165564;
+    border-bottom: 3px solid #75BCF3;
     font-weight: 600;
     display: inline-block;
     padding-bottom: 8px;
@@ -271,6 +271,7 @@ to {
 }
 
 .marquee__content li {
+    font-family: 'Roberto Mono', monospace;
     list-style: none;
     padding: 1rem;
     background: #2D849c;
@@ -304,7 +305,7 @@ to {
 
 .about .content ul li {
     font-size: 16px;
-    color: #000100;
+    color: #151a21;
     position: relative;
     padding-left: 32px;
 }
@@ -317,11 +318,12 @@ to {
     top: 4px;
 }
 
-.centered {
+.centred {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+    width: 100%;
+}
 
 .about .content .btn-skills {
     font-family: 'Roboto Mono', monospace;
@@ -379,7 +381,7 @@ to {
 .modal-header {
     height: 30px;
     padding: 20px;
-    background-color: #000100;
+    background-color: #151a21;
     color: white;
     cursor: move;
 }
@@ -389,13 +391,8 @@ to {
     font-size: 16px;
 }
 
-.modal-header .close {
-    margin-top: -10px;
-    color: #F0F6F5;
-}
-
 .modal-body {
-    color: #000100;
+    color: #151a21;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     padding: 5px 35px 20px;
