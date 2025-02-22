@@ -348,6 +348,11 @@ to {
     transform: scale(1.05);
 }
 
+/* -- Location Images -- */
+.location-hover:hover {
+    transform: scale(1.1);
+}
+
 /* -- Skills Modal -- */
 
 .button .btn-settings {
@@ -568,7 +573,7 @@ to {
 #footer .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #DDC399;
+    background: #F0F6F5;
     color: #151a21;
     line-height: 1;
     padding: 8px 0;
@@ -580,7 +585,7 @@ to {
 }
 
 #footer .social-links a:hover {
-    background: #8C6D6A;
+    background: #2D849c;
 }
 
 /* Reset styling for profile image links */
