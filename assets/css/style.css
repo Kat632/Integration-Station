@@ -363,12 +363,12 @@ to {
     margin: 25px;
     padding: 20px 30px;
     font-size: 1.2em;
-    background-color: #2D849c;
+    background-color: #0E3A53;
     color: #151a21;
 }
 
 .button .btn-settings:active {
-    color: #2D849c;
+    color: #0E3A53;
     background-color: #000100;
 }
 
@@ -389,7 +389,7 @@ to {
 .modal-header {
     height: 30px;
     padding: 20px;
-    background-color: #151a21;
+    background-color: #0E3A53;
     color: white;
     cursor: move;
 }
@@ -400,7 +400,7 @@ to {
 }
 
 .modal-body {
-    color: #151a21;
+    color: #0E3A53;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     padding: 5px 35px 20px;
@@ -469,7 +469,7 @@ to {
         font-size: 14px;
         text-transform: uppercase;
         color: white;
-        background: #2D849c;
+        background: #0E3A53;
     }
 
 @media (hover: none) and (pointer: coarse) {
@@ -613,7 +613,7 @@ to {
 
 /* -- Footer Section -- */
 #footer {
-    background: #2D849c;
+    background: #0E3A53;
     color: #F0F6F5;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
