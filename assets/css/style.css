@@ -34,8 +34,8 @@ html {
     display: flex;
     justify-content: space-between;
     padding: 25px 3px;
-    font-size: 20px;
-    color: #000100;
+    font-size: 22px;
+    color: #0E3A53;
     white-space: nowrap;
     font-weight: 800;
     transition: 0.3s;
@@ -50,7 +50,7 @@ html {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url('https://pml.ac.uk/wp-content/uploads/2024/08/attachment-927.jpeg');
+    background: url('https://kat632.gibhub.io/integration-station/assets/images/TamarBridges_1_optimized_950.jpg');
     background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
