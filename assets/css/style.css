@@ -495,13 +495,15 @@ to {
     }
 
     .bs-columns h4 {
-        color: #8c6d6a;
+        color: #2D849c;
         text-transform: uppercase;
     }
 
-    .bs-columns ul li {
+    .modal-mobile-list li {
         padding-left: 0 !important;
+        color: #151a21 !important;
     }
+
 }
 
     /* @media screen and (max-width: 768px) {
