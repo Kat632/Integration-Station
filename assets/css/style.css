@@ -175,19 +175,19 @@ section {
 }
 
 .about-info {
-    background-color: #2D849c;
+    background-color: #0E3A53;
     padding: 25px;
     /*box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);*/ /* Adds depth */
 }
 
 .left-box {
-    background-color: #2D849c;
+    background-color: #0E3A53;
     padding: 25px;
     box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2); /* shadow to the left, bottom, and top */
 }
 
 .right-box {
-    background-color: #2D849c;
+    background-color: #0E3A53;
     padding: 25px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* shadow to the right, bottom, and top */
 }
@@ -277,7 +277,7 @@ to {
     font-family: 'Roberto Mono', monospace;
     list-style: none;
     padding: 1rem;
-    background: #2D849c;
+    background: #0E3A53;
     color: white;
     border-radius: 0.25rem;
     text-align: center;
@@ -338,16 +338,16 @@ to {
     border-radius: 50px;
     transition: 0.3s;
     line-height: 1;
-    color: #2D849c;
+    color: #0E3A53;
     animation-delay: 0.8s;
     margin-top: 6px auto 0;
-    border: 2px solid #2D849c;
+    border: 2px solid #0E3A53;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
 
 .about .content .btn-skills:hover {
-    background-color: #2D849c;
-    border: 2px solid #2D849c;
+    background-color: #0E3A53;
+    border: 2px solid #0E3A53;
     color: white;
     transform: scale(1.05);
 }
