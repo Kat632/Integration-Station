@@ -231,6 +231,13 @@ section {
     min-width: 200%;
     animation: scroll 20s linear infinite;
 }
+
+@media (max-width: 768px) { 
+    .marquee__content {
+        min-width: 300%; /* Ensures smooth looping */
+        animation: scroll 5s linear infinite; /* Adjust timing */
+    }
+}
   
 @keyframes scroll {
     from {
