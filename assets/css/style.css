@@ -505,6 +505,13 @@ to {
 
 }
 
+/* -- Box spacing on mobile -- */
+@media (max-width: 768px) {
+    .box {
+        margin-bottom: 10px; /* Adjust as needed */
+    }
+}
+
     /* @media screen and (max-width: 768px) {
     .table-responsive-stack tr {
         -webkit-box-orient: vertical;
