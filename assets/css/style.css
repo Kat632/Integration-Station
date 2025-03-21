@@ -371,6 +371,33 @@ to {
     top: 4px;
 }
 
+/* -- Scroll Container - mobile only -- */
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.scroll-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0E3A53;
+    color: #F0F6F5;
+    padding: 10px 15px;
+    border-radius: 5px;
+    min-width: 150px;
+    text-align: center;
+    font-weight: bold;
+    flex-shrink: 0; /* Prevents shrinking */
+}
+
+.scroll-item i {
+    margin-right: 5px;
+}
+
 .centred {
     display: flex;
     justify-content: center;
