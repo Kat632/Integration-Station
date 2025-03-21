@@ -80,7 +80,7 @@ html {
     font-family: "Biryani", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: #F5E6DA;
+    color: #F0F6F5;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
@@ -140,7 +140,7 @@ html {
 }
 
 #hero .hero-left {
-    color: #F5E6DA;
+    color: #F0F6F5;
     font-weight: 300;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
@@ -361,7 +361,6 @@ to {
     font-size: 16px;
     color: #F0F6F5;
     position: relative;
-    padding-left: 32px;
 }
 
 .about .content ul i {
