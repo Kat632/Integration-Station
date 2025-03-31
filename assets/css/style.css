@@ -734,6 +734,15 @@ to {
         text-transform: uppercase;
     }
 
+    .modal-dialog {
+        /*
+        margin-right: 0;
+        margin-left: 0;
+        */
+        max-width: 80%;
+        margin: auto;
+    }
+
     .modal-mobile-list li {
         padding-left: 0 !important;
         color: #151a21 !important;
