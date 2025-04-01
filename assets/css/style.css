@@ -86,19 +86,6 @@ html {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 767px) {
-    #hero h1 {
-        font-size: 2.5rem;
-    }
-  }
-
-/*@media (max-width: 767px) {
-    #hero h1,
-    #hero h2 {
-      text-align: right;
-    }
-  }*/
-
 #hero h2 {
     color: #F0F6F5;
     font-weight: 600;
@@ -110,22 +97,6 @@ html {
     background: rgba(18, 55, 78, 0.7); /* Adjust last value for transparency */
     padding: 15px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Adds depth */
-}
-
-@media (max-width: 767px) {
-    .blue-background h2,
-    .blue-background p {
-        text-align: left;
-    }
-}
-
-@media (max-width: 767px) {
-    .blue-background.box {
-        height: auto !important; /* Allow the box to expand */
-        min-height: fit-content; /* Ensure it grows with text */
-        overflow: visible; /* Prevent content from being cut off */
-        padding-bottom: 1rem; /* Add some padding to avoid text cutoff */
-    }
 }
 
 #hero .hero-left {
@@ -142,12 +113,6 @@ section {
 /* -- Overall section spacing -- */
 .section {
     padding: 40px 0; /* Adjust as needed */
-}
-
-@media (max-width: 768px) { /* Adjust for mobile */
-    .section {
-        padding: 20px 0;
-    }
 }
 
 .section-title {
@@ -254,6 +219,7 @@ section {
     animation: scroll 20s linear infinite;
 }
 
+/* Left this media query here to keep all the marquee styles together. */
 @media (max-width: 768px) { 
     .marquee__content {
         min-width: 300%; /* Ensures smooth looping */
@@ -270,7 +236,8 @@ section {
     }
 }
 
-  /* Pause animation when reduced-motion is set */
+/* Left this media query here to keep all the marquee styles together. */
+/* Pause animation when reduced-motion is set */
 @media (prefers-reduced-motion: reduce) {
     .marquee__content {
       animation-play-state: paused !important;
@@ -524,13 +491,6 @@ to {
         background: #0E3A53;
     }
 
-/* -- Box spacing on mobile -- */
-@media (max-width: 768px) {
-    .box {
-        margin-bottom: 10px; /* Adjust as needed */
-    }
-}
-
     /* @media screen and (max-width: 768px) {
     .table-responsive-stack tr {
         -webkit-box-orient: vertical;
@@ -734,6 +694,26 @@ to {
         text-align: left;
     }
 
+    #hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .blue-background h2,
+    .blue-background p {
+        text-align: left;
+    }
+
+    .blue-background.box {
+        height: auto !important; /* Allow the box to expand */
+        min-height: fit-content; /* Ensure it grows with text */
+        overflow: visible; /* Prevent content from being cut off */
+        padding-bottom: 1rem; /* Add some padding to avoid text cutoff */
+    }
+
+    .section {
+        padding: 20px 0;
+    }
+
     .bs-columns {
         max-width: 75%;
         margin: 0 auto;
@@ -758,4 +738,9 @@ to {
         color: #151a21 !important;
     }
 
+    /* -- Box spacing on mobile -- */
+    .box {
+        margin-bottom: 10px; /* Adjust as needed */
+    }
 }
+
