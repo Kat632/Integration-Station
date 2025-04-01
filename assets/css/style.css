@@ -38,14 +38,14 @@ html {
     font-size: 22px;
     color: #0E3A53;
     white-space: nowrap;
-    font-weight: 800;
+    font-weight: 700;
     transition: 0.3s;
     position: relative;
 }
 
 .nav-opaque {
     opacity: 0.7;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 #hero {
@@ -569,14 +569,24 @@ to {
     margin-top: -100px;
     /*padding: 50px 0;*/
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);   
 }
 
 #contact p{
     font-size: 21px;
     line-height: 1.6;
-    color: #165664;
+    color: #151a21;
     font-family: 'Lato', sans-serif;
+}
+
+#contact a {
+    text-decoration: none; /* Removes underline */
+    color: #0E3A53;
+}
+
+#contact a:hover {
+    color: #75BCF3; /* Change color on hover (Bootstrap primary blue) */
+    text-decoration: underline; /* Add underline on hover if desired */
 }
 
 #contact .social-links {
@@ -613,7 +623,7 @@ to {
 }
 
 #contact .social-links a:hover {
-    background: #2D849c;
+    background: #75BCF3;
 }
 
 /* Reset styling for profile image links */
