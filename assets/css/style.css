@@ -545,8 +545,8 @@ to {
 }
 
 #contact a:hover {
-    color: #75BCF3; /* Change color on hover (Bootstrap primary blue) */
-    text-decoration: underline; /* Add underline on hover if desired */
+    color: #75BCF3; /* Change color on hover */
+    text-decoration: none; /* Add underline on hover if desired */
 }
 
 #contact .social-links {
